@@ -1,0 +1,59 @@
+/* body { */
+    /* font-family: "Arial", sans-serif; */
+    /* font-family: 'Big Shoulders Inline Text', cursive;
+} */
+
+
+/* h1 { */
+    /* text manipulation */
+    /* text-decoration: overline; */
+    /* underline, overline, line-through */
+
+    /* text-transform: lowercase; */
+
+    /* text-align: right; */
+
+    /* font-size: 40px; */
+    /* font-weight: 800; */
+    /* font-style: italic; */
+    /* font-family: 'Big Shoulders Stencil Text', cursive;
+} */
+
+/* p {
+    text-align: justify; */
+    /* font-size: 40px; */
+/* 
+    font-weight: 100;
+} */
+
+
+/* div {
+    font-family:  "Xanh Mono", monospace ;
+} */
+
+p {
+    background-color: steelblue;
+    /* width: 50% ; */
+    /* height: 40px ; */
+    /* border: size style color; */
+    /* border: 10px double red; */
+    /* solid,dashed, dotted, double  */
+    /* border-top: 12px solid green; */
+
+    /* margin and padding  */
+    /* padding: size-of-all-sides; */
+    /* padding: 30px; */
+
+    /* padding: top-bottom left-right; */
+    /* padding: 10px 50px; */
+
+    /* padding: top right bottom left; */
+    /* padding: 10px 50px 100px 200px; */
+
+}
+
+p {
+    border: 5px solid red;
+    padding: 30px;
+    margin: 20px;
+}

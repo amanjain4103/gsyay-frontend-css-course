@@ -1,0 +1,198 @@
+/* element selector */
+
+/* p {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+ul {
+    color: violet;
+}
+
+li {
+    color: green;
+} */
+
+
+/* class selectors */
+
+/* h1 {
+    color: green;
+}
+
+.specialp {
+    color: red;
+}
+
+p {
+    color: gray;
+} */
+
+/* id selector */
+
+/* 
+li {
+    color: red;
+}
+
+
+#morespecial {
+    color: gray;
+}
+
+.bigsize {
+    font-size: 150%;
+}
+
+.colorgreen {
+    color: green;
+}
+
+.colorred {
+    color:red;
+}
+
+.colorviolet {
+    color: violet;
+}
+
+#mostspecial {
+    color:goldenrod ;
+}
+ */
+
+/* pseudo selectors */
+
+/* .bottom-header {
+    color: red;
+}
+
+.bottom-header:hover {
+    color: green;
+}
+
+li:first-child {
+    color: blue;
+} */
+
+/* .title {
+    color: red;
+}
+
+.title:hover {
+    color: green;
+}
+
+li:first-child {
+    color: steelblue;
+}
+
+li:last-child {
+    color: orange;
+}
+
+li:nth-child(5) {
+    color: grey;
+} */
+
+/* li:nth-child(even) {
+    color: green;
+} */
+
+
+
+/* General sibling selector */
+
+/* important */
+
+/* h2 + a { */
+    /* every a  that directly comes after h2*/
+    /* color: green;
+} */
+
+/* h2 ~ a { */
+    /* every a after h2 but in same parent */
+
+    /* color: gray;
+} */
+
+/* ul > li { */
+    /* every single li in ul */
+    /* color: green;
+} */
+
+
+/* ul li { */
+    /* every li directly inside ul but not the nested ones */
+    /* color: gray;
+} */
+
+/* leave differences for me */
+
+/* attribute selectors  */
+
+/* It allows us to select something on basis of their attributes */
+
+/* p {
+    color: green;
+} */
+
+/* exactly equal to */
+/* p[class=para-one] {
+    color: green;
+} */
+
+/* starting with */
+/* p[class^=para-one] {
+    color: gray;
+} */
+
+/* ending with */
+/* p[class$=para-one] {
+    color: blue;
+} */
+
+/* contains this */
+/* p[class*=para-one] {
+    color: red;
+} */
+
+/* write src/href in strings */
+/* img[src="http://image.com/image.jpg"] {
+    color: green;
+} */
+
+.coloring {
+    color: rgb(235, 142, 0);
+}
+
+.bg-one {
+    /* background-color: rgb(0,0,255); */
+    /* background: green; */
+
+    /* background images */
+    background-image: url("https://png.pngitem.com/pimgs/s/181-1818647_100-by-100-pixel-hd-png-download.png");
+    /* background: url("https://bit.ly/3fvMkIL"); */
+
+    /* backgroud properties */
+    background-repeat: no-repeat;
+
+    /* size */
+    /* background-size: 1120px 1150px; */
+    background-size: cover;
+    /* change dimensions and can also mess pixels */
+    /* background-size: contain; */
+    /* strtches but keep ratio*/
+}
+
+.click-me {
+    color: rgba(255, 0, 0, 1);
+}
+
+.click-me:hover {
+    color: rgba(255, 0, 0, 0.8);
+
+}
